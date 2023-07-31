@@ -13,7 +13,7 @@ public class JsonUtil {
      * @param data
      * @return
      */
-    private static String objectTiJson(Object data) {
+    public static String objectToJson(Object data) {
         try {
             return MAPPER.writeValueAsString(data);
         } catch (Exception e) {
