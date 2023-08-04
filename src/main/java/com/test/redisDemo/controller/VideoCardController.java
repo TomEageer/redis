@@ -28,7 +28,6 @@ public class VideoCardController {
      */
     private static final String VIDEO_CARD_CACHE_KEY = "video:card:key";
 
-
     @GetMapping("list_cache")
     public JsonData listCardCache() {
 
